@@ -1,0 +1,246 @@
+body {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+.container {
+	width: 1170px;
+    margin: 0 auto;
+}
+
+.nav__background {
+	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+}
+
+.nav {
+	width: 1170px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.nav--left {
+	float: left;
+	margin-top: 40px;
+}
+
+.nav--right {
+	float: right;
+	margin-top: 40px;
+}
+
+.nav--left .nav__item {
+    margin-right: 35px;
+}
+
+.nav--right .nav__item {
+    margin-left: 35px;
+}
+
+.nav__item {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav__logo {
+	width: 160px;
+	height: 100px;
+	background: #0f0;
+	margin: 0 auto;
+}
+
+.main__background {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/main.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.main {
+    text-align: center;
+    padding-top: 185px;
+    padding-bottom: 35px;
+    color: #fff;
+}
+
+.main__icon {
+    width: 200px;
+    height: 100px;
+    background: #0f0;
+    display: inline-block;
+}
+
+.main__label {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.main__caption {
+	font-size: 95px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: -20px;
+}
+
+.main__desc {
+    font-size: 14px;
+}
+
+.button {
+	background: #d19d64;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 35px;
+    margin-top: 35px;
+    font-weight: 900;
+    cursor: pointer;
+    color: #000;
+}
+
+.main__table {
+	margin-top: 180px;
+	width: 100%;
+	display: table;
+}
+
+.main__td {
+    display: table-cell;
+    border: 1px solid #fff;
+    border-right: 0;
+    margin-left: -5px;
+    width: 33%;
+    height: 100px;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.main__td:last-child {
+	border-right: 1px solid #fff;
+}
+
+.about {
+    padding-top: 115px;
+    padding-bottom: 155px;
+    display: table;
+}
+
+.about--left {
+    display: table-cell;
+    width: 50%;
+}
+
+.about__label {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    color: #d19d64;
+}
+
+.about__header {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 3.5px;
+}
+
+.about__desc {
+	font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.about__text {
+	margin-top: 25px;
+    line-height: 26px;
+}
+
+.about--right {
+	display: table-cell;
+    width: 50%;
+    background: #0f0;
+}
+
+.specialists {
+    background: #eaeff2;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 165px;
+}
+
+.specialists__header {
+    font-size: 58px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.specialists__block {
+	margin-top: 100px;
+}
+
+.specialists__box {
+	width: 350px;
+	min-height: 545px;
+    border: 4px solid #000;
+    box-sizing: border-box;
+    padding: 5px 5px 30px 5px;
+}
+
+.specialists__box-img {
+	background: #0f0;
+    height: 255px;
+}
+
+.specialists__box-content {
+	padding: 30px 30px 0 30px;
+    box-sizing: border-box;
+}
+
+.specialists__box-header {
+	font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #d09d64;
+}
+
+.specialists__box-desc {
+	margin-top: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #858786;
+}
+
+.specialists__box-button {
+	margin-top: 30px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 10px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.specialists__block .owl-dots {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.specialists__block .owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+    box-sizing: border-box;
+    border: 2px solid #a3a8ac;
+}
+
+.specialists__block .owl-dot.active {
+    background: #d19d64;
+    border: 2px solid #d19d64;
+}
+
+.specialists__block .owl-dot:last-child {
+    margin-right: 0;
+}
+

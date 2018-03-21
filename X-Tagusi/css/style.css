@@ -1,0 +1,181 @@
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.logo {
+	background: #0f0;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.nav {
+	float: right;
+	margin-top: 35px;
+    margin-right: 40px;
+}
+
+.nav__item {
+	display: inline-block;
+    margin-right: 40px;
+}
+
+.nav__item:last-child {
+	margin-right: 0;
+}
+
+.header__buttons {
+	float: right;
+    width: 200px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 70px;
+    overflow: hidden;
+}
+
+.header__button {
+    width: 50%;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header__button--left {
+	float: left;
+	background: #56bce2;
+}
+
+.header__button--right {
+	float: right;
+	background: #42d79f;
+}
+
+.promo__background {
+	background: linear-gradient(135deg, #49cdb5 0%,#53c2d3 100%);
+}
+
+.promo {
+	text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.promo__header {
+	font-size: 50px;
+}
+
+.promo__desc {
+	font-size: 18px;
+    margin-top: 5px;
+    line-height: 30px;
+}
+
+.promo__button {
+    background: #212429;
+    display: inline-block;
+    padding: 18px 35px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.promo__block {
+	text-align: center;
+	position: relative;
+}
+
+.promo__img {
+    width: 340px;
+    margin-bottom: -140px;
+    margin-top: 25px;
+}
+
+.promo__box {
+	position: absolute;
+    width: 330px;
+    text-align: left;
+    background: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 40px -10px rgba(0,0,0,0.75);
+}
+
+.promo__box:after {
+    content: "";
+    display: block;
+    width: 280px;
+    height: 130px;
+    position: absolute;
+}
+
+.promo__box--left {
+    top: 275px;
+    left: 0px;
+}
+
+.promo__box--left:after {
+	top: -130px;
+    left: 160px;
+    border-top: 1px dashed #fff;
+    border-left: 1px dashed #fff;
+}
+
+.promo__box--right {
+	top: 100px;
+    right: 25px;
+}
+
+.promo__box--right:after {
+	top: 205px;
+    left: -70px;
+    border-bottom: 1px dashed #fff;
+    border-right: 1px dashed #fff;
+}
+
+.promo__icon {
+	width: 80px;
+    height: 80px;
+    background: #0f0;
+}
+
+.promo__caption {
+    font-size: 18px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.promo__label {
+    font-size: 12px;
+    padding-left: 5px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
