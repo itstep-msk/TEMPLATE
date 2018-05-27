@@ -329,3 +329,75 @@ body {
     color: #d09e64;
     text-transform: uppercase;
 }
+
+.pricing {
+    padding-top: 75px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/reviews.png);
+    background-size: cover;
+}
+
+.pricing__header {
+    font-size: 58px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.pricing__block {
+    margin-top: 60px;
+}
+
+.tabs {
+    border-bottom: 2px solid #d19d64;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tabs__item {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 0px;
+    flex: auto;
+    text-align: center;
+    color: #808080;
+    cursor: pointer;
+}
+
+.tabs__item--active {
+   background: #d19d64;
+   color: #000;
+}
+
+.tabs-content__item {
+    position: relative;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.tabs-content__label {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+}
+
+.tabs-content__desc {
+    margin-top: 10px;
+    color: #888a89;
+}
+
+.tabs-content__pricing {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    font-size: 20px;
+    color: #d19d64;
+}
+
+.tabs-content {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display: none;
+}
