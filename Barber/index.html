@@ -353,6 +353,118 @@
 				</div>
 			</div>
 		</div>
+		<div class="discount__desc">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, diam <br>
+			eget cursus faucibus, turpis metus sagittis mauris, at consequat arcu nisi quis<br>
+			ligula. Donec nisl dolor, bibendum ac odio a, varius consequat tortor.
+		</div>
+		<div class="discount__button">Make an appointment now &rarr;</div>
 	</div>
+	<div class="works">
+		<div class="works__header">Our works</div>
+		<div class="works__tags">
+			<div class="works__tag">Classic hair cut</div>
+			<div class="works__tag">Clipper cut</div>
+			<div class="works__tag">Rozoe shaver</div>
+			<div class="works__tag">Hair style</div>
+		</div>
+		<div class="works__gallery">
+			<div class="works__gallery-item">
+				<div class="works__gallery-inside">
+					<div class="works__gallery-header"></div>
+					<div class="works__gallery-desc"></div>
+					<div class="works__gallery-button"></div>
+				</div>
+			</div>
+			<div class="works__gallery-item">
+				<div class="works__gallery-inside">
+					<div class="works__gallery-header"></div>
+					<div class="works__gallery-desc"></div>
+					<div class="works__gallery-button"></div>
+				</div>
+			</div>
+			<div class="works__gallery-item">
+				<div class="works__gallery-inside">
+					<div class="works__gallery-header"></div>
+					<div class="works__gallery-desc"></div>
+					<div class="works__gallery-button"></div>
+				</div>
+			</div>
+			<div class="works__gallery-item">
+				<div class="works__gallery-inside">
+					<div class="works__gallery-header"></div>
+					<div class="works__gallery-desc"></div>
+					<div class="works__gallery-button"></div>
+				</div>
+			</div>
+			<div class="works__gallery-item">
+				<div class="works__gallery-inside">
+					<div class="works__gallery-header"></div>
+					<div class="works__gallery-desc"></div>
+					<div class="works__gallery-button"></div>
+				</div>
+			</div>
+			<div class="works__gallery-item">
+				<div class="works__gallery-inside">
+					<div class="works__gallery-header"></div>
+					<div class="works__gallery-desc"></div>
+					<div class="works__gallery-button"></div>
+				</div>
+			</div>
+			<div class="works__gallery-item">
+				<div class="works__gallery-inside">
+					<div class="works__gallery-header"></div>
+					<div class="works__gallery-desc"></div>
+					<div class="works__gallery-button"></div>
+				</div>
+			</div>
+			<div class="works__gallery-item">
+				<div class="works__gallery-inside">
+					<div class="works__gallery-header"></div>
+					<div class="works__gallery-desc"></div>
+					<div class="works__gallery-button"></div>
+				</div>
+			</div>
+		</div>
+		<div class="works__button">View all</div>
+	</div>
+	<div class="map" id="map">
+            <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyC2STNEfHDkiQaGMI5G7hhPtSdPUBghyzQ"></script>
+            <script type="text/javascript">
+            function initialize() {
+            var mapOptions = {
+                zoom: 15,
+                center: new google.maps.LatLng(56.3578037, 37.5311853),
+                disableDefaultUI: true,
+                scrollwheel: false,
+                zoomControl: true,
+                zoomControlOptions: {
+                    style: google.maps.ZoomControlStyle.LARGE,
+                    position: google.maps.ControlPosition.LEFT_CENTER
+                },
+                mapTypeControlOptions: {
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+                }
+                };
+                var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+                var featureOpts = [{ "stylers": [{ "saturation": -100 }] }];
+                var styledMap = new google.maps.StyledMapType(featureOpts, { name: "Styled Map" });
+
+                var Marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(	1853),
+                    map: map,
+                    icon: {
+                        url: 'img/location.png',
+                        size: new google.maps.Size(32, 32),
+                        origin: new google.maps.Point(0, 0),
+                        anchor: new google.maps.Point(32, 32)
+                    }
+                });
+                map.mapTypes.set('map_style', styledMap);
+                map.setMapTypeId('map_style');
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+        </div>
 </body>
 </html>
