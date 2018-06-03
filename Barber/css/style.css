@@ -401,3 +401,63 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+.discount {
+    text-align: center;
+    padding-top: 210px;
+}
+
+.discount__block-border {
+    border: 2px solid;
+    display: inline-block;
+    width: 800px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.discount__block {
+    background: #000;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.discount__header {
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+.discount__header--bold {
+    font-weight: bold
+}
+
+.discount__header--thin {
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.discount__header--brown {
+    color: #d19d64;
+}
+
+.discount__header--white {
+    color: #fff;
+}
+
+.discount__promo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.discount__promo-label {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.discount__promo-value {
+    display: inline-block;
+    color: #d19d64;
+    font-size: 20px;
+    text-transform: uppercase;
+}
