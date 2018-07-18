@@ -1,0 +1,204 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	min-width: 320px;
+}
+
+.main {
+    padding-bottom: 165px;
+    background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),url(https://vignette.wikia.nocookie.net/disneyfanon/images/2/21/Businessman.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 20%;
+}
+
+.main__greeting {
+	padding-top: 60px;
+    padding-left: 110px;
+    width: 50%;
+    display: inline-block;
+}
+
+.main__header {
+    font-size: 140px;
+    font-weight: 800;
+}
+
+.main__desc {
+    font-size: 50px;
+}
+
+.main__info {
+    width: 25%;
+    display: inline-block;
+    margin-left: 70px;
+    vertical-align: top;
+    margin-top: 80px;
+    border-left: 1px solid #b3b3b3;
+    padding-bottom: 90px;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.main__pic {
+    background: url(https://vignette.wikia.nocookie.net/disneyfanon/images/2/21/Businessman.png);
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+}
+
+.main__skill {
+    background: #dcdcdc;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projects {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.projects__header {
+	text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.projects__items {
+	margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects__item {
+	background-image: url(http://www.brightdevelopers.com/wp-content/uploads/2017/03/code.jpg);
+    background-size: cover;
+    width: 25%;
+    height: 330px;
+}
+
+.projects__button {
+    background: #dcdcdc;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.footer {
+    background: #6a6a6a;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer__social {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer__social:last-child {
+	margin-right: 0;
+}
+
+.footer__social img {
+	width: 50px;
+}
+
+.footer__mail {
+	color: #fff;    
+	font-size: 20px;
+    padding-top: 20px;
+}
+
+
+@media (max-width: 1200px) {
+
+.main {
+    background: none;
+    padding-bottom: 0px;
+}
+
+.main__greeting {
+	width: 100%;
+    padding-top: 100px;
+    padding-right: 110px;
+    box-sizing: border-box;
+}
+
+.main__info {
+    border-left: none;
+    border-top: 1px solid #b3b3b3;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-left: 0;
+}
+
+.projects__item {
+	width: 33.3%;
+}
+
+}
+
+@media (max-width: 900px) {
+
+.main__greeting {
+	padding-top: 50px;
+}
+
+.main__header {
+	font-size: 90px;
+}
+
+.main__desc {
+    font-size: 40px;
+}
+
+.main__info {
+	padding-top: 50px;
+    margin-top: 100px;
+}
+
+.projects__item {
+    width: 50%;
+}
+
+}
+
+@media (max-width: 700px) {
+
+.main__greeting {
+	padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.main__header {
+	font-size: 60px;
+}
+
+.main__desc {
+	font-size: 24px;
+}
+
+.main__info {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.projects__item {
+	width: 100%;
+}
+
+}

@@ -227,6 +227,7 @@ body {
     text-transform: uppercase;
     font-size: 18px;
     opacity: 0;
+    transition: all, .25s;
 }
 
 .product__box:hover .product__caption {
@@ -322,3 +323,45 @@ body {
     margin-top: 5px;
 }
 
+.gallery {
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 100px;
+}
+
+.gallery__header {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.gallery__desc {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.gallery__nav {
+    margin-top: 45px;
+    display: inline-block;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.gallery__nav-item {
+    display: inline-block;
+    font-size: 22px;
+    padding: 25px 40px;
+}
+
+.gallery__items {
+    padding: 0px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery__item {
+    background: #0f0;
+    width: calc(33% - 15px);
+    margin-top: 25px;
+    height: 290px;
+}
